@@ -23,7 +23,6 @@
     "@types/react-router-dom": "^4.3.4",
     "@types/socket.io-client": "^1.4.32",
     "@types/webpack-env": "^1.14.0",
-    "react-hot-loader": "4.12.6",
     "webpack-dev-server": "3.7.2"
   },
   "dependencies": {
@@ -54,6 +53,7 @@
     "mini-css-extract-plugin": "0.6.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
+    "react-hot-loader": "4.12.6",
     "react-router-dom": "^5.0.1",
     "socket.io-client": "^2.2.0",
     "style-loader": "0.23.1",

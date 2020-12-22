@@ -12,9 +12,6 @@
     "build": "cd client && npm install && npm run build && cd ../server && npm install && cp .env.example .env",
     "start": "npm run build:start"
   },
-  "engines": {
-    "node": "10"
-  },
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {}
