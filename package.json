@@ -9,7 +9,7 @@
     "url": "https://github.com/squelix/twitch-play-sound.git"
   },
   "scripts": {
-    "start": "cd client && npm install && npm run build && cd ../server && npm install && npm run build:start"
+    "start": "cd client && npm install && npm run build && cd ../server && npm install && cp .env.example .env && npm run build:start"
   },
   "license": "MIT",
   "dependencies": {},
