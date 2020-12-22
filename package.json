@@ -13,6 +13,9 @@
     "build": "cd client && npm run build && cd ../server && npm run build",
     "start": "cd server && npm run server"
   },
+  "engines": {
+    "node": "14"
+  },
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {},
