@@ -1,0 +1,17 @@
+{
+  "name": "twitch-play-sound-server",
+  "version": "1.0.0",
+  "description": "twitch-play-sound-server",
+  "author": "Jesse Båtman (http://jessebatman.fi)",
+  "main": "server/src/server.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/squelix/twitch-play-sound.git"
+  },
+  "scripts": {
+    "start": "cd client && npm install && npm run build && cd ../server && npm install && npm run build:start"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
