@@ -14,5 +14,6 @@
   },
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "cacheDirectories": ["client/node_modules", "server/node_modules"]
 }
